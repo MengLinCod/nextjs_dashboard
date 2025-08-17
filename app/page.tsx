@@ -12,68 +12,60 @@ export default function Page() {
          <CompareLogo /> 
       </div>
       <div className="mt-4 flex grow flex-col gap-4 md:flex-row">
-        <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
+        <div className="flex flex-col justify-center gap-1 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
           <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
-            <strong>Best Makeup Remover Balms: A Simple Review</strong> <p/>
-            Removing makeup properly is essential for healthy skin. Today, I’m testing a few popular makeup remover balms to compare their effectiveness, texture, and gentleness on the skin.  {' '}
-            Product1:
-            <a href="https://item.taobao.com/item.htm?abbucket=10&id=955221620284&ltk2=1753454156416hvire7xqz36fcttgbqpek9&ns=1&priceTId=213e07d217534541503096657e1951&skuId=5877454541242&spm=a21n57.1.hoverItem.3&utparam=%7B%22aplus_abtest%22%3A%229a119003d291ab2e10ce9d5b06a005b2%22%7D&xxc=taobaoSearch" className="text-blue-500">
-            
-            <p> Clinique Take The Day Off Cleansing Balm </p>
-            
-            </a>
-            Product2:
-            {""}
-            <a href="https://item.taobao.com/item.htm?id=684355492652&ns=1&abbucket=10&xxc=taobaoSearch&skuId=null&priceTId=214784cb17534543942515295e114b&utparam=%7B%22aplus_abtest%22%3A%22b0c0566f10849c87ecf8f2c76200379b%22%7D&spm=a21n57.1.hoverItem.2&ltk2=1753454399409uygzz9wn4v9wxobxdq72" className="text-blue-500">
-             <p>Banila Co Clean It Zero</p>
-             </a>
-
-             Product3:
-            {""}
-            <a href="https://item.taobao.com/item.htm?abbucket=10&id=39446183766&ltk2=175361903939339u279emwflg6fxlt69pm7&ns=1&priceTId=2147804d17536189965528078e1a89&skuId=5865135413648&spm=a21n57.1.hoverItem.3&utparam=%7B%22aplus_abtest%22%3A%226b6c8be50c742f55ff0bb8d0504c9fbd%22%7D&xxc=taobaoSearch"className="text-blue-500">
-             <p>The Body Shop</p>
-             </a>
-             1. Effectiveness:  
-Clinique Take The Day Off Cleansing Balm: Melts makeup effortlessly, even waterproof mascara.  
-Banila Co Clean It Zero: Works well but leaves a slight residue.  
-The Body Shop Camomile Cleansing Butter: Good for light makeup but struggles with heavy eyeliner.  <p/>
-
-2. Texture & Application:  
-Clinique: Smooth, lightweight, and turns into an oil quickly.  
-Banila Co: Slightly thicker but still easy to spread.  
-The Body Shop: Creamier, requires more rubbing to dissolve makeup.  <p/>
-
-3. Skin Sensitivity  
-Clinique: Best for sensitive skin—no irritation.  
-Banila Co: Contains fragrance, which may irritate some skin types.  
-The Body Shop: Gentle but can feel heavy if not rinsed well.  <p/>
-
-Final Verdict  
-If you want a gentle, effective option, Clinique is the winner. For a budget-friendly choice, Banila Co works well (unless you have sensitive skin). The Body Shop is decent for light makeup but not the strongest.  
-
-Have you tried any of these? Share your thoughts below!  
-
-Skincare MakeupRemover CleansingBalm BeautyReview<p/>
-
----  <p/>
-Would you like me to add more details or include other brands? 
+            <strong>Stop using Incognito. Real privacy starts here</strong> <p/>
+            Over 3.2 billion people use Google Chrome. It's fast and convenient, but built by an advertising giant whose business relies on your data. You don't need to switch browsers to fight back. Here are the 8 essential settings to drastically reduce tracking without ditching Chrome:
           </p>
-          <Link
-            href="/login"
-            className="flex items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
-          >
-            <span>bought</span> <ArrowRightIcon className="w-5 md:w-6" />
-          </Link>
-        </div>
-        <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
-          {/* Add Hero Images Here */}
-                <Image
-        src="/哈哈.png"
-        width={1000}
-        height={760}
-        className="hidden md:block"
-        alt="Screenshots of the dashboard project showing desktop version"
-      />   <Image
+          <p>
+             1. 🔒 Kill "Privacy Sandbox" Tracking</p>
+<p>Problem: Google's replacing third-party cookies with "Privacy Sandbox" (Topics API, FLEDGE) – tracking your interests inside Chrome for ads.
+Fix: Paste chrome:/settings/adPrivacy into your address bar. TURN OFF:
+</p><p>Ad Topics</p><p>
+Site-suggested Ads</p><p>
+Ad Measurement</p><p>
+Why:Limits Chrome's built-in ad profiling.
+          </p>
+      <p> 2. 🛑 Disable "Preload Pages"
+Problem:Chrome loads pages it *thinks* you'll visit, sending your data (IP, cookies) to sites you haven't chosen.
+Fix:Settings /</p> Privacy & security / Cookies... / Preload pages / OFF
+<p>Why:Stops preemptive data leaks. Minor speed trade-off, major privacy win.
+</p>
+<p>       3. 🛡️ Force "HTTPS-First Mode"
+Problem: HTTP connections are insecure and snoopable.
+Fix:Settings / Privacy & security / Security / Always use secure connections / ON.</p>
+<p>Why: Encrypts your connection whenever possible.</p>
+<p>4. ⏲️ Auto-Delete Cookies & Site Data</p>
+<p>Problem: Accumulated cookies enable long-term tracking.</p>
+<p>Option 1: Delete cookies... when you close all windows /  ON.
+<p>Option 2 (More Control): Clear browsing data / Choose what to clear every close /</p></p> Select "Cookies..." & "Cached files" / ON.
+  <p> Why: Regularly wipes tracking data. Crucial for shared devices.</p>
+<p>5. 🔌 Stop "Background Apps"</p>
+<p>Problem: Extensions/websites can run after you close Chrome, using data/resources.</p>
+<p>Fix: Settings / System / Continue running background apps... / OFF.</p>
+<p>Why: Saves resources & stops hidden data access.</p>
+<p>6. 📍 Lock Down "Site Permissions"</p>
+<p>Problem: Sites accessing sensitive hardware (mic, cam, location); lingering permissions.</p>
+<p>Fix: Settings / Privacy & security / Site Settings:</p>
+<p>Location/Camera/Microphone: Set default to "Don't allow sites to..." OR review/remove sites under "Allowed".</p>
+<p>Notifications:Block (unless essential).</p>
+<p>Pop-ups: Keep Blocked.</p>
+<p>Why: Prevents unexpected snooping & stops annoyances.</p>
+
+<p>7. 🔐 Enable "Secure DNS"</p>
+<p>Problem: Unencrypted DNS requests reveal your browsing history to ISPs/networks.</p>
+<p>Fix: Settings /</p> Privacy & security / Security / Use secure DNS` / ON / Choose provider (e.g., Cloudflare `1.1.1.1` or Google `8.8.8.8`).
+<p>Why: Encrypts your DNS lookups, hiding sites you visit from network spies.</p><p>Why: Encrypts your DNS lookups, hiding sites you visit from network spies.</p>
+        <p>8. 🧹 Audit Extensions RUTHLESSLY</p>
+<p>Problem: Extensions have massive power; many free ones harvest/sell your data.</p>
+<p>Fix: Settings / Extensions / REMOVE unused/untrusted extensions.</p>
+    <p>For keepers: Click Details </p>
+        <p>Site access: Set to "On click" or "On specific sites".</p>
+      <p> Review Permissions. Beware vague ones like "Read and change all your data...".</p>
+<p>Why: Malicious/data-hungry extensions are a top threat. Less is more.</p>
+
+       
+         <Image
         src="/哈哈.png"
          width={560}
         height={620}

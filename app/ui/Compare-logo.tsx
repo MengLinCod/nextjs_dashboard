@@ -7,7 +7,7 @@ export default function CompareLogo() {
       className={`${lusitana.className} flex flex-row items-center leading-none text-white`}
     >
       <GlobeAltIcon className="h-12 w-12 rotate-[15deg]" />
-      <p className="text-[44px]">Different makeup removers</p>
+      <p className="text-[44px]">Stop using Incognito. Real privacy starts here</p>
     </div>
   );
 }
